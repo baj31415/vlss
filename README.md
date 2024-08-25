@@ -6,8 +6,8 @@ A simple semantic search application that takes in a text string and images, pas
 Cool things about this project : 
 
 - Switchable Visual Language Model Encoders via hf transformers. Currently Supporting: 
-    - **All CLiP Versions**: Tested : ["openai/clip-vit-base-patch32"](https://huggingface.co/openai/clip-vit-base-patch32) , 
-    - **All BLiP Versions**: Tested : ["Salesforce/blip2-opt-2.7b"](https://huggingface.co/Salesforce/blip2-opt-2.7b), 
+    - **All CLiP Versions**: Tested : ["openai/clip-vit-base-patch32"](https://huggingface.co/openai/clip-vit-base-patch32) 
+    - **All BLiP Versions**: Tested : ["Salesforce/blip2-opt-2.7b"](https://huggingface.co/Salesforce/blip2-opt-2.7b)
 
     - **Quantized CLiP versions** for resource constrained systems via [clip.cpp](https://github.com/monatis/clip.cpp)
 
