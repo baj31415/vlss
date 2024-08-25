@@ -6,14 +6,14 @@ A simple semantic search application that takes in a text string and images, pas
 Cool things about this project : 
 
 - Switchable Visual Language Model Encoders via hf transformers. Currently Supporting: 
-    - **All CLiP Versions**: Tested : ["openai/clip-vit-base-patch32"](https://huggingface.co/openai/clip-vit-base-patch32) , ["openai/clip-vit-large-patch14](https://huggingface.co/openai/clip-vit-large-patch14) , 
-    - **All BLiP Versions**: Tested : ["Salesforce/blip-image-captioning-base"](), ["Salesforce/blip-image-captioning-large"](), 
+    - **All CLiP Versions**: Tested : ["openai/clip-vit-base-patch32"](https://huggingface.co/openai/clip-vit-base-patch32) , 
+    - **All BLiP Versions**: Tested : ["Salesforce/blip2-opt-2.7b"](https://huggingface.co/Salesforce/blip2-opt-2.7b), 
 
-    - Supports resource constrained systems by using quantized versions of CLiP via [clip.cpp](https://github.com/monatis/clip.cpp)
+    - **Quantized CLiP versions** for resource constrained systems via [clip.cpp](https://github.com/monatis/clip.cpp)
 
 Work In Progress
 
-- Fast Vector Search with [FAISS](https://github.com/facebookresearch/faiss)
+- Fast Vector Search on pre-computed embeddings with [FAISS](https://github.com/facebookresearch/faiss)
 
 ### Environment Setup 
 
