@@ -1,0 +1,18 @@
+name: vlss
+channels:
+  - defaults
+  - conda-forge
+  - nvidia
+  - pytorch
+dependencies:
+  - python=3.9
+  - pip
+  - pytorch
+  - torchvision
+  - faiss-gpu=1.8.0  
+  - pip:
+      - transformers
+      - streamlit
+      - clip_cpp
+      - numpy
+      - pillow
